@@ -1,0 +1,68 @@
+stuctural ouery language(sql) is a colletion of database the database which contians the tables in that we that data that is called data base.
+
+SQL COMMANDS
+
+>data defination langaugae(ddl)
+.create
+.alter
+.drop
+.turncate
+
+>data manipulation langugae(dml)
+.select
+.>update
+.insert
+.delete
+
+>data control(dcl)
+.grant
+.revoke
+
+>transaction control(tcl)
+.commit
+.rollback
+
+DATATYPES IN SQL
+
+.type of value is called data type
+
+>binary
+.images
+
+>numeric
+.approximate:real,float
+.exact:bit,tiny int,small int,int,big int,decimal
+
+>strings
+.char
+.varchar(we can modified)
+.text
+
+>date/time
+.date(yymmdd)
+.time(hhmmss)
+datetime(yyyymmhhmm)
+
+CREATE(ddl)
+**every query will be terminated using ;
+ 
+displaying databases in MYSQL
+.sql> show databases;
+
+entering into database
+.sql> use database-name;
+.database changed
+
+how to create table
+
+>create table table_name(
+->attribute 1 dataype,
+->attribute 2 datatype,
+->);
+ 
+what are taables avialable in database
+.sql-> show tables;
+oracle-> slect* from tab;
+
+
+
